@@ -168,9 +168,11 @@
 		0217BD8218259EF3003B30A9 /* cpVect.c in Sources */ = {isa = PBXBuildFile; fileRef = 0217BD8118259EF3003B30A9 /* cpVect.c */; };
 		0217BD8818259EF3003B30A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0217BD8718259EF3003B30A9 /* main.m */; };
 		0217BD8B18259EF3003B30A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0217BD8A18259EF3003B30A9 /* AppDelegate.m */; };
-		0217BD8E18259EF3003B30A9 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0217BD8D18259EF3003B30A9 /* HelloWorldLayer.m */; };
 		0217BD9118259EF3003B30A9 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0217BD9018259EF3003B30A9 /* IntroLayer.m */; };
 		0217BD9318259EF3003B30A9 /* grossini_dance_atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 0217BD9218259EF3003B30A9 /* grossini_dance_atlas.png */; };
+		026C088B1825A3B3000A8162 /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 026C088A1825A3B3000A8162 /* MainScene.m */; };
+		026C088E1825BB45000A8162 /* MainSceneMainLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 026C088D1825BB45000A8162 /* MainSceneMainLayer.m */; };
+		026C08911825BEA2000A8162 /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 026C08901825BEA2000A8162 /* Hero.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -508,11 +510,15 @@
 		0217BD8718259EF3003B30A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0217BD8918259EF3003B30A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0217BD8A18259EF3003B30A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0217BD8C18259EF3003B30A9 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		0217BD8D18259EF3003B30A9 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		0217BD8F18259EF3003B30A9 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		0217BD9018259EF3003B30A9 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
 		0217BD9218259EF3003B30A9 /* grossini_dance_atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grossini_dance_atlas.png; path = Resources/grossini_dance_atlas.png; sourceTree = "<group>"; };
+		026C08891825A3B3000A8162 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
+		026C088A1825A3B3000A8162 /* MainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScene.m; sourceTree = "<group>"; };
+		026C088C1825BB45000A8162 /* MainSceneMainLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainSceneMainLayer.h; sourceTree = "<group>"; };
+		026C088D1825BB45000A8162 /* MainSceneMainLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSceneMainLayer.m; sourceTree = "<group>"; };
+		026C088F1825BEA2000A8162 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		026C08901825BEA2000A8162 /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -575,13 +581,17 @@
 			children = (
 				0217BD8918259EF3003B30A9 /* AppDelegate.h */,
 				0217BD8A18259EF3003B30A9 /* AppDelegate.m */,
-				0217BD8C18259EF3003B30A9 /* HelloWorldLayer.h */,
-				0217BD8D18259EF3003B30A9 /* HelloWorldLayer.m */,
 				0217BD8F18259EF3003B30A9 /* IntroLayer.h */,
 				0217BD9018259EF3003B30A9 /* IntroLayer.m */,
-				0217BB9D18259EF1003B30A9 /* Resources */,
 				0217BBB518259EF1003B30A9 /* libs */,
+				026C08891825A3B3000A8162 /* MainScene.h */,
+				026C088A1825A3B3000A8162 /* MainScene.m */,
+				0217BB9D18259EF1003B30A9 /* Resources */,
 				0217BD8518259EF3003B30A9 /* Supporting Files */,
+				026C088C1825BB45000A8162 /* MainSceneMainLayer.h */,
+				026C088D1825BB45000A8162 /* MainSceneMainLayer.m */,
+				026C088F1825BEA2000A8162 /* Hero.h */,
+				026C08901825BEA2000A8162 /* Hero.m */,
 			);
 			path = Platformer;
 			sourceTree = "<group>";
@@ -1101,6 +1111,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = BitRot;
+				TargetAttributes = {
+					0217BB8418259EF1003B30A9 = {
+						DevelopmentTeam = 7SV3DRWXCM;
+					};
+				};
 			};
 			buildConfigurationList = 0217BB8018259EF1003B30A9 /* Build configuration list for PBXProject "Platformer" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1164,7 +1179,6 @@
 				0217BC2718259EF1003B30A9 /* CCNode+Debug.m in Sources */,
 				0217BC0218259EF1003B30A9 /* ccFPSImages.m in Sources */,
 				0217BC8818259EF2003B30A9 /* CCTMXXMLParser.m in Sources */,
-				0217BD8E18259EF3003B30A9 /* HelloWorldLayer.m in Sources */,
 				0217BD7618259EF3003B30A9 /* cpSpaceComponent.c in Sources */,
 				0217BD1F18259EF2003B30A9 /* ray2.c in Sources */,
 				0217BCBA18259EF2003B30A9 /* base64.c in Sources */,
@@ -1178,6 +1192,7 @@
 				0217BD5818259EF2003B30A9 /* cpPivotJoint.c in Sources */,
 				0217BCDF18259EF2003B30A9 /* ZipUtils.m in Sources */,
 				0217BBD118259EF1003B30A9 /* CCActionManager.m in Sources */,
+				026C08911825BEA2000A8162 /* Hero.m in Sources */,
 				0217BC3918259EF2003B30A9 /* CCParticleSystemQuad.m in Sources */,
 				0217BBFC18259EF1003B30A9 /* CCDrawNode.m in Sources */,
 				0217BC8E18259EF2003B30A9 /* CCTransitionPageTurn.m in Sources */,
@@ -1218,6 +1233,7 @@
 				0217BC7618259EF2003B30A9 /* CCTextureCache.m in Sources */,
 				0217BD1918259EF2003B30A9 /* neon_matrix_impl.c in Sources */,
 				0217BD4E18259EF2003B30A9 /* cpDampedRotarySpring.c in Sources */,
+				026C088E1825BB45000A8162 /* MainSceneMainLayer.m in Sources */,
 				0217BC4918259EF2003B30A9 /* CCScene.m in Sources */,
 				0217BBC818259EF1003B30A9 /* CCActionGrid3D.m in Sources */,
 				0217BD1118259EF2003B30A9 /* mat4stack.c in Sources */,
@@ -1278,6 +1294,7 @@
 				0217BC4C18259EF2003B30A9 /* CCScheduler.m in Sources */,
 				0217BC9C18259EF2003B30A9 /* CCDirectorIOS.m in Sources */,
 				0217BC1E18259EF1003B30A9 /* CCMenu.m in Sources */,
+				026C088B1825A3B3000A8162 /* MainScene.m in Sources */,
 				0217BD2718259EF2003B30A9 /* vec4.c in Sources */,
 				0217BBE918259EF1003B30A9 /* CCCamera.m in Sources */,
 				0217BBE318259EF1003B30A9 /* CCAnimationCache.m in Sources */,
@@ -1338,6 +1355,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1355,6 +1374,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "\"Platformer/libs/Chipmunk/include/chipmunk\"";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1364,6 +1384,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Platformer/Prefix.pch;
@@ -1380,6 +1402,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "\"Platformer/libs/Chipmunk/include/chipmunk\"";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -1405,6 +1428,7 @@
 				0217BD9818259EF3003B30A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
