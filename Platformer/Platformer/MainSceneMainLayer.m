@@ -87,7 +87,7 @@
 
 - (void)ccTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
     bool hasActiveTouches = NO;
-	for( UITouch *touch in event.allTouches ) {
+	for(UITouch *touch in event.allTouches) {
         if (![touches containsObject:touch]) {
             hasActiveTouches = YES;
             
@@ -99,12 +99,12 @@
     }
     
     if (!hasActiveTouches) {
-        self.hero.movementState = kHeroMovementStateNone;
+        [self.hero stopMoving];
     }
 }
 
 -(void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-	for( UITouch *touch in touches ) {
+	for (UITouch *touch in touches) {
 		CGPoint location = [touch locationInView: [touch view]];
 		
 		location = [[CCDirector sharedDirector] convertToGL: location];
@@ -113,7 +113,7 @@
 }
 
 -(void)ccTouchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
-	for( UITouch *touch in touches ) {
+	for (UITouch *touch in touches) {
 		CGPoint location = [touch locationInView: [touch view]];
 		
 		location = [[CCDirector sharedDirector] convertToGL: location];
@@ -123,9 +123,9 @@
 
 -(void)onTouch:(CGPoint)location {
     if (location.x < [[CCDirector sharedDirector] winSize].width/2) {
-        self.hero.movementState = kHeroMovementStateLeft;
+        [self.hero moveLeft];
     } else {
-        self.hero.movementState = kHeroMovementStateRight;
+        [self.hero moveRight];
     }
 }
 

@@ -22,18 +22,31 @@ typedef enum {
 @interface Hero : CCPhysicsSprite
 {
 @private cpShape* _cpShape;
+@private bool _isInputToMoveLeft;
+@private bool _isInputToMoveRight;
 }
 
+
 @property (strong, nonatomic) CCSpriteBatchNode* batchNode;
-@property kHeroMovementState movementState;
-@property kHeroMovementState lastMovementState;
-@property kHeroJumpingState jumpingState;
-@property kHeroJumpingState lastJumpingState;
+@property (nonatomic) kHeroMovementState movementState;
+@property (nonatomic) kHeroMovementState lastMovementState;
+@property (nonatomic) kHeroJumpingState jumpingState;
+@property (nonatomic) kHeroJumpingState lastJumpingState;
+@property (strong, nonatomic) CCAnimation* moveLeftAnimation;
+@property (strong, nonatomic) CCAnimation* moveRightAnimation;
+@property (strong, nonatomic) CCAnimation* standLeftAnimation;
+@property (strong, nonatomic) CCAnimation* standRightAnimation;
+
++(void)initialize;
 
 -(id)init;
 -(id)initWithSpace:(cpSpace*)space parent:(CCNode *)parent position:(CGPoint)position;
 -(Hero *)hero;
 -(Hero *)heroWithSpace:(cpSpace*)space parent:(CCNode *)parent position:(CGPoint)position;
+
+-(void)moveLeft;
+-(void)moveRight;
+-(void)stopMoving;
 
 -(void)update:(ccTime)delta;
 
