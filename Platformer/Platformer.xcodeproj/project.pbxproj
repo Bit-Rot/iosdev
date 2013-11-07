@@ -173,6 +173,8 @@
 		026C088B1825A3B3000A8162 /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 026C088A1825A3B3000A8162 /* MainScene.m */; };
 		026C088E1825BB45000A8162 /* MainSceneMainLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 026C088D1825BB45000A8162 /* MainSceneMainLayer.m */; };
 		026C08911825BEA2000A8162 /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 026C08901825BEA2000A8162 /* Hero.m */; };
+		0277B82F182B3A32000B402F /* megaman.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0277B82D182B3A32000B402F /* megaman.plist */; };
+		0277B830182B3A32000B402F /* megaman.png in Resources */ = {isa = PBXBuildFile; fileRef = 0277B82E182B3A32000B402F /* megaman.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -519,6 +521,8 @@
 		026C088D1825BB45000A8162 /* MainSceneMainLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSceneMainLayer.m; sourceTree = "<group>"; };
 		026C088F1825BEA2000A8162 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
 		026C08901825BEA2000A8162 /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
+		0277B82D182B3A32000B402F /* megaman.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = megaman.plist; path = ../../../../../Documents/megaman.plist; sourceTree = "<group>"; };
+		0277B82E182B3A32000B402F /* megaman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = megaman.png; path = ../../../../../Documents/megaman.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -599,6 +603,8 @@
 		0217BB9D18259EF1003B30A9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0277B82D182B3A32000B402F /* megaman.plist */,
+				0277B82E182B3A32000B402F /* megaman.png */,
 				0217BB9E18259EF1003B30A9 /* Default.png */,
 				0217BBA018259EF1003B30A9 /* Default@2x.png */,
 				0217BBA218259EF1003B30A9 /* Default-568h@2x.png */,
@@ -1142,12 +1148,14 @@
 				0217BBAF18259EF1003B30A9 /* Icon.png in Resources */,
 				0217BD0D18259EF2003B30A9 /* ChangeLog in Resources */,
 				0217BBA118259EF1003B30A9 /* Default@2x.png in Resources */,
+				0277B830182B3A32000B402F /* megaman.png in Resources */,
 				0217BBAB18259EF1003B30A9 /* Icon-Small.png in Resources */,
 				0217BBA718259EF1003B30A9 /* Icon-72.png in Resources */,
 				0217BB9F18259EF1003B30A9 /* Default.png in Resources */,
 				0217BBA918259EF1003B30A9 /* Icon-Small-50.png in Resources */,
 				0217BBB418259EF1003B30A9 /* iTunesArtwork in Resources */,
 				0217BBAD18259EF1003B30A9 /* Icon-Small@2x.png in Resources */,
+				0277B82F182B3A32000B402F /* megaman.plist in Resources */,
 				0217BBA518259EF1003B30A9 /* Default-Landscape~ipad.png in Resources */,
 				0217BD9318259EF3003B30A9 /* grossini_dance_atlas.png in Resources */,
 				0217BBA318259EF1003B30A9 /* Default-568h@2x.png in Resources */,
