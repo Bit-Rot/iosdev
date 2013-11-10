@@ -21,5 +21,6 @@
 }
 
 @property (strong, nonatomic) Hero* hero;
+@property (strong, nonatomic) CCNode* cameraNode;
 -(void) initPhysics;
 @end

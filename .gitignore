@@ -1,3 +1,4 @@
 Platformer/Platformer.xcodeproj/xcuserdata/*
 Platformer/Platformer.xcodeproj/project.xcworkspace/xcuserdata/bitrot.xcuserdatad/UserInterfaceState.xcuserstate
 Platformer/Platformer.xcodeproj/project.xcworkspace/xcshareddata/
+*.DS_Store

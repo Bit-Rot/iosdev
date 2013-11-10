@@ -8,19 +8,23 @@
 
 #import "MainScene.h"
 #import "MainSceneMainLayer.h"
+#import "MainSceneBackgroundLayer.h"
 
 @implementation MainScene
 
 +(CCScene *) scene
 {
 	// 'scene' is an autorelease object.
-	CCScene *scene = [CCScene node];
+	MainScene *scene = [MainScene node];
 	
 	// 'layer' is an autorelease object.
 	MainSceneMainLayer *layer = [MainSceneMainLayer node];
+    
+    scene.gradientLayer = [MainSceneBackgroundLayer layerWithHero:layer.hero];
 	
 	// add layer as a child to scene
-	[scene addChild: layer];
+    [scene addChild:scene.gradientLayer z:0];
+	[scene addChild:layer z:1];
 	
 	// return the scene
 	return scene;

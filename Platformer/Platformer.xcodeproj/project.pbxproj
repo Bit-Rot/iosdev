@@ -170,6 +170,8 @@
 		0217BD8B18259EF3003B30A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0217BD8A18259EF3003B30A9 /* AppDelegate.m */; };
 		0217BD9118259EF3003B30A9 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0217BD9018259EF3003B30A9 /* IntroLayer.m */; };
 		0217BD9318259EF3003B30A9 /* grossini_dance_atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 0217BD9218259EF3003B30A9 /* grossini_dance_atlas.png */; };
+		0267D51E182B813700056EF8 /* MainSceneBackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0267D51D182B813700056EF8 /* MainSceneBackgroundLayer.m */; };
+		0267D528182DEF3B00056EF8 /* ColorPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0267D527182DEF3B00056EF8 /* ColorPosition.m */; };
 		026C088B1825A3B3000A8162 /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 026C088A1825A3B3000A8162 /* MainScene.m */; };
 		026C088E1825BB45000A8162 /* MainSceneMainLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 026C088D1825BB45000A8162 /* MainSceneMainLayer.m */; };
 		026C08911825BEA2000A8162 /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 026C08901825BEA2000A8162 /* Hero.m */; };
@@ -515,6 +517,10 @@
 		0217BD8F18259EF3003B30A9 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		0217BD9018259EF3003B30A9 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
 		0217BD9218259EF3003B30A9 /* grossini_dance_atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grossini_dance_atlas.png; path = Resources/grossini_dance_atlas.png; sourceTree = "<group>"; };
+		0267D51C182B813700056EF8 /* MainSceneBackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainSceneBackgroundLayer.h; sourceTree = "<group>"; };
+		0267D51D182B813700056EF8 /* MainSceneBackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSceneBackgroundLayer.m; sourceTree = "<group>"; };
+		0267D526182DEF3B00056EF8 /* ColorPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPosition.h; sourceTree = "<group>"; };
+		0267D527182DEF3B00056EF8 /* ColorPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPosition.m; sourceTree = "<group>"; };
 		026C08891825A3B3000A8162 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
 		026C088A1825A3B3000A8162 /* MainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScene.m; sourceTree = "<group>"; };
 		026C088C1825BB45000A8162 /* MainSceneMainLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainSceneMainLayer.h; sourceTree = "<group>"; };
@@ -583,6 +589,10 @@
 		0217BB9C18259EF1003B30A9 /* Platformer */ = {
 			isa = PBXGroup;
 			children = (
+				0267D526182DEF3B00056EF8 /* ColorPosition.h */,
+				0267D527182DEF3B00056EF8 /* ColorPosition.m */,
+				0267D51C182B813700056EF8 /* MainSceneBackgroundLayer.h */,
+				0267D51D182B813700056EF8 /* MainSceneBackgroundLayer.m */,
 				0217BD8918259EF3003B30A9 /* AppDelegate.h */,
 				0217BD8A18259EF3003B30A9 /* AppDelegate.m */,
 				0217BD8F18259EF3003B30A9 /* IntroLayer.h */,
@@ -1223,6 +1233,7 @@
 				0217BD1B18259EF2003B30A9 /* plane.c in Sources */,
 				0217BCC718259EF2003B30A9 /* CCProfiling.m in Sources */,
 				0217BC5E18259EF2003B30A9 /* CCShaderCache.m in Sources */,
+				0267D51E182B813700056EF8 /* MainSceneBackgroundLayer.m in Sources */,
 				0217BC6418259EF2003B30A9 /* CCSprite.m in Sources */,
 				0217BC0B18259EF1003B30A9 /* CCGrabber.m in Sources */,
 				0217BD1518259EF2003B30A9 /* mat3.c in Sources */,
@@ -1270,6 +1281,7 @@
 				0217BC9118259EF2003B30A9 /* CCTransitionProgress.m in Sources */,
 				0217BCB418259EF2003B30A9 /* CCGLView.m in Sources */,
 				0217BCE818259EF2003B30A9 /* CDOpenALSupport.m in Sources */,
+				0267D528182DEF3B00056EF8 /* ColorPosition.m in Sources */,
 				0217BBCB18259EF1003B30A9 /* CCActionInstant.m in Sources */,
 				0217BBEC18259EF1003B30A9 /* CCClippingNode.m in Sources */,
 				0217BC7018259EF2003B30A9 /* CCTexture2D.m in Sources */,

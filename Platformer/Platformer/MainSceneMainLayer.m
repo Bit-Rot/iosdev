@@ -21,6 +21,11 @@
 		[self initPhysics];
         
         self.hero = [[Hero alloc] initWithSpace:_space parent:self position:CGPointMake(200.0f, 200.0f)];
+        
+        CGSize winSize = [[CCDirector sharedDirector] winSize];
+        self.cameraNode = [CCNode node];
+        [self.cameraNode setPosition:(CGPointMake(winSize.width/2, winSize.height/2))];
+        [self addChild:self.cameraNode];
 		
 		[self scheduleUpdate];
 	}
@@ -30,7 +35,8 @@
 
 -(void)initPhysics {
 	CGSize s = [[CCDirector sharedDirector] winSize];
-	
+	int numScreens = 10;
+    
 	_space = cpSpaceNew();
 	
 	cpSpaceSetGravity( _space, cpv(0, -100) );
@@ -40,16 +46,16 @@
 	// We have to free them manually
 	//
 	// bottom
-	_walls[0] = cpSegmentShapeNew( _space->staticBody, cpv(0,0), cpv(s.width,0), 0.0f);
+	_walls[0] = cpSegmentShapeNew( _space->staticBody, cpv(0,0), cpv(s.width*numScreens,0), 0.0f);
 	
 	// top
-	_walls[1] = cpSegmentShapeNew( _space->staticBody, cpv(0,s.height), cpv(s.width,s.height), 0.0f);
+	_walls[1] = cpSegmentShapeNew( _space->staticBody, cpv(0,s.height), cpv(s.width*numScreens,s.height), 0.0f);
 	
 	// left
 	_walls[2] = cpSegmentShapeNew( _space->staticBody, cpv(0,0), cpv(0,s.height), 0.0f);
 	
 	// right
-	_walls[3] = cpSegmentShapeNew( _space->staticBody, cpv(s.width,0), cpv(s.width,s.height), 0.0f);
+	_walls[3] = cpSegmentShapeNew( _space->staticBody, cpv(s.width*numScreens,0), cpv(s.width*numScreens,s.height), 0.0f);
 	
 	for (int i=0;i<4;i++) {
 		cpShapeSetElasticity( _walls[i], 1.0f );
@@ -129,5 +135,61 @@
     }
 }
 
+-(void)draw {
+    CGSize winSize = [[CCDirector sharedDirector] winSize];
+    
+    float cameraFollowDistance = winSize.width*0.3f;
+    float cameraMinX = winSize.width/2.0f;
+    float cameraMaxX = winSize.width*3.0f;
+    
+    float x = self.cameraNode.position.x;
+    float y = self.cameraNode.position.y;
+    if (x > self.hero.position.x + cameraFollowDistance) {
+        x = self.hero.position.x + cameraFollowDistance;
+    } else if (x < self.hero.position.x - cameraFollowDistance) {
+        x = self.hero.position.x - cameraFollowDistance;
+    }
+    if (x < cameraMinX) {
+        x = cameraMinX;
+    } else if (x > cameraMaxX) {
+        x = cameraMaxX;
+    }
+//    if (y <= self.hero.position.y + 3 || y >= self.hero.position.y - 3) {
+//        y = self.hero.position.y;
+//    } else if (y > self.hero.position.y + 30 || y < self.hero.position.y - 30) {
+//        y = (y + self.hero.position.y)/2;
+//    }
+    [[self cameraNode] setPosition:(CGPointMake(x,y))];
+    [self runAction: [CCFollow actionWithTarget:self.cameraNode]];
+    
+    [super draw];
+}
+
+
+/*
+-(void)draw {
+    
+    float eyeX, eyeY, eyeZ;
+//    [[self camera] eyeX:&eyeX eyeY:&eyeY eyeZ:&eyeZ];
+    [[self camera] centerX:&eyeX centerY:&eyeY centerZ:&eyeZ];
+    CCCamera* camera = [self camera];
+
+    if (eyeX > self.hero.position.x + 200) {
+        eyeX = self.hero.position.x + 200;
+    } else if (eyeX < self.hero.position.x - 200) {
+        eyeX = self.hero.position.x - 200;
+    }
+    
+    if (eyeY <= self.hero.position.y + 3 || eyeY >= self.hero.position.y - 3) {
+        eyeY = self.hero.position.y;
+    } else if (eyeY > self.hero.position.y + 30 || eyeY < self.hero.position.y - 30) {
+        eyeY = (eyeY + self.hero.position.y)/2;
+    }
+//    [[self camera] setEyeX:eyeX eyeY:eyeY eyeZ:eyeZ];
+    [[self camera] setCenterX:eyeX centerY:eyeY centerZ:eyeZ];
+    
+    [super draw];
+}
+*/
 
 @end

@@ -8,8 +8,11 @@
 
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
+#import "MainSceneMainLayer.h"
 
 @interface MainScene : CCScene
+@property (strong, nonatomic) CCLayerGradient* gradientLayer;
+@property (strong, nonatomic) MainSceneMainLayer* mainLayer;
 
 +(CCScene *) scene;
 
