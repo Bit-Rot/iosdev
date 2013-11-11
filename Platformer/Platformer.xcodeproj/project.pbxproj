@@ -169,14 +169,16 @@
 		0217BD8818259EF3003B30A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0217BD8718259EF3003B30A9 /* main.m */; };
 		0217BD8B18259EF3003B30A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0217BD8A18259EF3003B30A9 /* AppDelegate.m */; };
 		0217BD9118259EF3003B30A9 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0217BD9018259EF3003B30A9 /* IntroLayer.m */; };
-		0217BD9318259EF3003B30A9 /* grossini_dance_atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 0217BD9218259EF3003B30A9 /* grossini_dance_atlas.png */; };
+		023C44291830431700B09AD5 /* heather.plist in Resources */ = {isa = PBXBuildFile; fileRef = 023C44271830431700B09AD5 /* heather.plist */; };
+		023C442A1830431700B09AD5 /* heather.png in Resources */ = {isa = PBXBuildFile; fileRef = 023C44281830431700B09AD5 /* heather.png */; };
 		0267D51E182B813700056EF8 /* MainSceneBackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0267D51D182B813700056EF8 /* MainSceneBackgroundLayer.m */; };
 		0267D528182DEF3B00056EF8 /* ColorPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0267D527182DEF3B00056EF8 /* ColorPosition.m */; };
 		026C088B1825A3B3000A8162 /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 026C088A1825A3B3000A8162 /* MainScene.m */; };
 		026C088E1825BB45000A8162 /* MainSceneMainLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 026C088D1825BB45000A8162 /* MainSceneMainLayer.m */; };
 		026C08911825BEA2000A8162 /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 026C08901825BEA2000A8162 /* Hero.m */; };
-		0277B82F182B3A32000B402F /* megaman.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0277B82D182B3A32000B402F /* megaman.plist */; };
-		0277B830182B3A32000B402F /* megaman.png in Resources */ = {isa = PBXBuildFile; fileRef = 0277B82E182B3A32000B402F /* megaman.png */; };
+		02805EFE18305BDB00492B6B /* ground2.png in Resources */ = {isa = PBXBuildFile; fileRef = 02805EFD18305BDB00492B6B /* ground2.png */; };
+		029394681830643F00B8B729 /* ground_pixelated.png in Resources */ = {isa = PBXBuildFile; fileRef = 029394671830643F00B8B729 /* ground_pixelated.png */; };
+		0293968B18306A4B00B8B729 /* TransparencyPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0293968A18306A4B00B8B729 /* TransparencyPosition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -516,7 +518,8 @@
 		0217BD8A18259EF3003B30A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0217BD8F18259EF3003B30A9 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		0217BD9018259EF3003B30A9 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
-		0217BD9218259EF3003B30A9 /* grossini_dance_atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grossini_dance_atlas.png; path = Resources/grossini_dance_atlas.png; sourceTree = "<group>"; };
+		023C44271830431700B09AD5 /* heather.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = heather.plist; path = Resources/heather.plist; sourceTree = "<group>"; };
+		023C44281830431700B09AD5 /* heather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heather.png; path = Resources/heather.png; sourceTree = "<group>"; };
 		0267D51C182B813700056EF8 /* MainSceneBackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainSceneBackgroundLayer.h; sourceTree = "<group>"; };
 		0267D51D182B813700056EF8 /* MainSceneBackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSceneBackgroundLayer.m; sourceTree = "<group>"; };
 		0267D526182DEF3B00056EF8 /* ColorPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPosition.h; sourceTree = "<group>"; };
@@ -527,8 +530,10 @@
 		026C088D1825BB45000A8162 /* MainSceneMainLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSceneMainLayer.m; sourceTree = "<group>"; };
 		026C088F1825BEA2000A8162 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
 		026C08901825BEA2000A8162 /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
-		0277B82D182B3A32000B402F /* megaman.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = megaman.plist; path = ../../../../../Documents/megaman.plist; sourceTree = "<group>"; };
-		0277B82E182B3A32000B402F /* megaman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = megaman.png; path = ../../../../../Documents/megaman.png; sourceTree = "<group>"; };
+		02805EFD18305BDB00492B6B /* ground2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ground2.png; path = Resources/ground2.png; sourceTree = "<group>"; };
+		029394671830643F00B8B729 /* ground_pixelated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ground_pixelated.png; path = Resources/ground_pixelated.png; sourceTree = "<group>"; };
+		0293968918306A4B00B8B729 /* TransparencyPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparencyPosition.h; sourceTree = "<group>"; };
+		0293968A18306A4B00B8B729 /* TransparencyPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparencyPosition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -606,6 +611,8 @@
 				026C088D1825BB45000A8162 /* MainSceneMainLayer.m */,
 				026C088F1825BEA2000A8162 /* Hero.h */,
 				026C08901825BEA2000A8162 /* Hero.m */,
+				0293968918306A4B00B8B729 /* TransparencyPosition.h */,
+				0293968A18306A4B00B8B729 /* TransparencyPosition.m */,
 			);
 			path = Platformer;
 			sourceTree = "<group>";
@@ -613,8 +620,10 @@
 		0217BB9D18259EF1003B30A9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0277B82D182B3A32000B402F /* megaman.plist */,
-				0277B82E182B3A32000B402F /* megaman.png */,
+				029394671830643F00B8B729 /* ground_pixelated.png */,
+				02805EFD18305BDB00492B6B /* ground2.png */,
+				023C44271830431700B09AD5 /* heather.plist */,
+				023C44281830431700B09AD5 /* heather.png */,
 				0217BB9E18259EF1003B30A9 /* Default.png */,
 				0217BBA018259EF1003B30A9 /* Default@2x.png */,
 				0217BBA218259EF1003B30A9 /* Default-568h@2x.png */,
@@ -627,7 +636,6 @@
 				0217BBB018259EF1003B30A9 /* Icon@2x.png */,
 				0217BBB218259EF1003B30A9 /* Info.plist */,
 				0217BBB318259EF1003B30A9 /* iTunesArtwork */,
-				0217BD9218259EF3003B30A9 /* grossini_dance_atlas.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1156,18 +1164,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				0217BBAF18259EF1003B30A9 /* Icon.png in Resources */,
+				02805EFE18305BDB00492B6B /* ground2.png in Resources */,
 				0217BD0D18259EF2003B30A9 /* ChangeLog in Resources */,
 				0217BBA118259EF1003B30A9 /* Default@2x.png in Resources */,
-				0277B830182B3A32000B402F /* megaman.png in Resources */,
 				0217BBAB18259EF1003B30A9 /* Icon-Small.png in Resources */,
+				029394681830643F00B8B729 /* ground_pixelated.png in Resources */,
 				0217BBA718259EF1003B30A9 /* Icon-72.png in Resources */,
 				0217BB9F18259EF1003B30A9 /* Default.png in Resources */,
 				0217BBA918259EF1003B30A9 /* Icon-Small-50.png in Resources */,
 				0217BBB418259EF1003B30A9 /* iTunesArtwork in Resources */,
 				0217BBAD18259EF1003B30A9 /* Icon-Small@2x.png in Resources */,
-				0277B82F182B3A32000B402F /* megaman.plist in Resources */,
+				023C442A1830431700B09AD5 /* heather.png in Resources */,
+				023C44291830431700B09AD5 /* heather.plist in Resources */,
 				0217BBA518259EF1003B30A9 /* Default-Landscape~ipad.png in Resources */,
-				0217BD9318259EF3003B30A9 /* grossini_dance_atlas.png in Resources */,
 				0217BBA318259EF1003B30A9 /* Default-568h@2x.png in Resources */,
 				0217BBB118259EF1003B30A9 /* Icon@2x.png in Resources */,
 			);
@@ -1180,6 +1189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0293968B18306A4B00B8B729 /* TransparencyPosition.m in Sources */,
 				0217BC7918259EF2003B30A9 /* CCTexturePVR.m in Sources */,
 				0217BCC918259EF2003B30A9 /* ccUtils.c in Sources */,
 				0217BD7A18259EF3003B30A9 /* cpSpaceQuery.c in Sources */,

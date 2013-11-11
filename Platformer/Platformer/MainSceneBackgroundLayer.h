@@ -17,6 +17,7 @@
 @property (strong, nonatomic) CCSprite* sun;
 @property (strong, nonatomic) CCSprite* moon;
 @property (strong, nonatomic) NSMutableArray* colorPositionArray;
+@property (strong, nonatomic) NSMutableArray* transparencyPositionArray;
 
 -(id)initWithHero:(Hero*)hero;
 +(MainSceneBackgroundLayer*)layerWithHero:(Hero*)hero;

@@ -24,6 +24,9 @@ typedef enum {
 @private cpShape* _cpShape;
 @private bool _isInputToMoveLeft;
 @private bool _isInputToMoveRight;
+@private CGFloat _spriteWidth;
+@private CGFloat _spriteHeight;
+@private CGFloat _spriteScale;
 }
 
 
@@ -33,20 +36,21 @@ typedef enum {
 @property (nonatomic) kHeroJumpingState jumpingState;
 @property (nonatomic) kHeroJumpingState lastJumpingState;
 @property (strong, nonatomic) CCAnimation* moveLeftAnimation;
-@property (strong, nonatomic) CCAnimation* moveRightAnimation;
 @property (strong, nonatomic) CCAnimation* standLeftAnimation;
-@property (strong, nonatomic) CCAnimation* standRightAnimation;
 
 +(void)initialize;
 
 -(id)init;
--(id)initWithSpace:(cpSpace*)space parent:(CCNode *)parent position:(CGPoint)position;
--(Hero *)hero;
--(Hero *)heroWithSpace:(cpSpace*)space parent:(CCNode *)parent position:(CGPoint)position;
+-(id)initWithSpace:(cpSpace*)space parent:(CCNode *)parent;
++(Hero*)hero;
++(Hero*)heroWithSpace:(cpSpace*)space parent:(CCNode*)parent;
 
 -(void)moveLeft;
 -(void)moveRight;
 -(void)stopMoving;
+
+-(CGFloat)height;
+-(CGFloat)width;
 
 -(void)update:(ccTime)delta;
 

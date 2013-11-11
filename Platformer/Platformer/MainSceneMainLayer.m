@@ -12,16 +12,28 @@
 @implementation MainSceneMainLayer
 
 -(id)init {
-	if( (self=[super init])) {
+	if((self=[super init])) {
 		
+        //Initialize input
 		self.touchEnabled = YES;
 		self.accelerometerEnabled = YES;
 		
-		// init physics
+		//Initialize Physics
 		[self initPhysics];
         
-        self.hero = [[Hero alloc] initWithSpace:_space parent:self position:CGPointMake(200.0f, 200.0f)];
+        //Initialize Hero
+        self.hero = [Hero heroWithSpace:_space parent:self];
+        [self.hero setPosition:CGPointMake(200.0f, self.hero.height/2 + 20.0f)];
         
+        //Initialize Ground Texture
+        CCTexture2D *groundTexture = [[CCTextureCache sharedTextureCache] addImage:@"ground_pixelated.png"];
+        ccTexParams params = {GL_LINEAR, GL_LINEAR, GL_REPEAT, GL_LINEAR};
+        [groundTexture setTexParameters:&params];
+        CCSprite *groundSprite = [CCSprite spriteWithTexture:groundTexture rect:CGRectMake(0, 0, 1000000, 16)];
+        [groundSprite setScale:4.0f];
+        [self addChild:groundSprite];
+
+        //Initialize Camera
         CGSize winSize = [[CCDirector sharedDirector] winSize];
         self.cameraNode = [CCNode node];
         [self.cameraNode setPosition:(CGPointMake(winSize.width/2, winSize.height/2))];
@@ -35,7 +47,7 @@
 
 -(void)initPhysics {
 	CGSize s = [[CCDirector sharedDirector] winSize];
-	int numScreens = 10;
+	int numScreens = 13;
     
 	_space = cpSpaceNew();
 	
@@ -46,7 +58,7 @@
 	// We have to free them manually
 	//
 	// bottom
-	_walls[0] = cpSegmentShapeNew( _space->staticBody, cpv(0,0), cpv(s.width*numScreens,0), 0.0f);
+	_walls[0] = cpSegmentShapeNew( _space->staticBody, cpv(0,20.0f), cpv(s.width*numScreens,20.0f), 0.0f);
 	
 	// top
 	_walls[1] = cpSegmentShapeNew( _space->staticBody, cpv(0,s.height), cpv(s.width*numScreens,s.height), 0.0f);
@@ -58,7 +70,7 @@
 	_walls[3] = cpSegmentShapeNew( _space->staticBody, cpv(s.width*numScreens,0), cpv(s.width*numScreens,s.height), 0.0f);
 	
 	for (int i=0;i<4;i++) {
-		cpShapeSetElasticity( _walls[i], 1.0f );
+		cpShapeSetElasticity( _walls[i], 0.0f );
 		cpShapeSetFriction( _walls[i], 1.0f );
 		cpSpaceAddStaticShape(_space, _walls[i] );
 	}
@@ -140,7 +152,7 @@
     
     float cameraFollowDistance = winSize.width*0.3f;
     float cameraMinX = winSize.width/2.0f;
-    float cameraMaxX = winSize.width*3.0f;
+    float cameraMaxX = winSize.width*13.0f;
     
     float x = self.cameraNode.position.x;
     float y = self.cameraNode.position.y;

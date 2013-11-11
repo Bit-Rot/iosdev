@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>heather_run_left_1.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{4, 0}, {18, 37}}</string>
+			<key>spriteOffset</key>
+			<string>{2, -0}</string>
+			<key>spriteSize</key>
+			<string>{18, 37}</string>
+			<key>spriteSourceSize</key>
+			<string>{22, 37}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{111, 78}, {18, 37}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_left_10.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{2, 0}, {24, 38}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -0}</string>
+			<key>spriteSize</key>
+			<string>{24, 38}</string>
+			<key>spriteSourceSize</key>
+			<string>{26, 38}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{9, 204}, {24, 38}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_left_11.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{2, 0}, {18, 37}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -0}</string>
+			<key>spriteSize</key>
+			<string>{18, 37}</string>
+			<key>spriteSourceSize</key>
+			<string>{20, 37}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{106, 195}, {18, 37}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_left_12.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{2, 0}, {13, 36}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -0}</string>
+			<key>spriteSize</key>
+			<string>{13, 36}</string>
+			<key>spriteSourceSize</key>
+			<string>{15, 36}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{144, 38}, {13, 36}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_left_13.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {13, 38}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{13, 38}</string>
+			<key>spriteSourceSize</key>
+			<string>{13, 38}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{67, 80}, {13, 38}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_left_14.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{4, 0}, {17, 38}}</string>
+			<key>spriteOffset</key>
+			<string>{2, -0}</string>
+			<key>spriteSize</key>
+			<string>{17, 38}</string>
+			<key>spriteSourceSize</key>
+			<string>{21, 38}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{57, 160}, {17, 38}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_left_15.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{4, 0}, {20, 38}}</string>
+			<key>spriteOffset</key>
+			<string>{2, -0}</string>
+			<key>spriteSize</key>
+			<string>{20, 38}</string>
+			<key>spriteSourceSize</key>
+			<string>{24, 38}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{35, 162}, {20, 38}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_left_16.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{6, 0}, {21, 38}}</string>
+			<key>spriteOffset</key>
+			<string>{3, -0}</string>
+			<key>spriteSize</key>
+			<string>{21, 38}</string>
+			<key>spriteSourceSize</key>
+			<string>{27, 38}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{27, 40}, {21, 38}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_left_17.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{6, 0}, {25, 37}}</string>
+			<key>spriteOffset</key>
+			<string>{3, 1}</string>
+			<key>spriteSize</key>
+			<string>{25, 37}</string>
+			<key>spriteSourceSize</key>
+			<string>{31, 39}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{100, 0}, {25, 37}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_left_18.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{2, 0}, {28, 37}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -0}</string>
+			<key>spriteSize</key>
+			<string>{28, 37}</string>
+			<key>spriteSourceSize</key>
+			<string>{30, 37}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{70, 39}, {28, 37}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_left_19.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{4, 0}, {28, 37}}</string>
+			<key>spriteOffset</key>
+			<string>{2, -0}</string>
+			<key>spriteSize</key>
+			<string>{28, 37}</string>
+			<key>spriteSourceSize</key>
+			<string>{32, 37}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{76, 160}, {28, 37}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_left_2.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{4, 0}, {14, 36}}</string>
+			<key>spriteOffset</key>
+			<string>{2, -0}</string>
+			<key>spriteSize</key>
+			<string>{14, 36}</string>
+			<key>spriteSourceSize</key>
+			<string>{18, 36}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{131, 116}, {14, 36}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_left_20.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{6, 0}, {22, 38}}</string>
+			<key>spriteOffset</key>
+			<string>{3, -0}</string>
+			<key>spriteSize</key>
+			<string>{22, 38}</string>
+			<key>spriteSourceSize</key>
+			<string>{28, 38}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{21, 82}, {22, 38}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_left_3.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {15, 37}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{15, 37}</string>
+			<key>spriteSourceSize</key>
+			<string>{15, 37}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{127, 39}, {15, 37}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_left_4.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {18, 38}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{18, 38}</string>
+			<key>spriteSourceSize</key>
+			<string>{18, 38}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{50, 0}, {18, 38}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_left_5.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{2, 0}, {19, 39}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -0}</string>
+			<key>spriteSize</key>
+			<string>{19, 39}</string>
+			<key>spriteSourceSize</key>
+			<string>{21, 39}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 82}, {19, 39}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_left_6.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{6, 0}, {20, 38}}</string>
+			<key>spriteOffset</key>
+			<string>{3, 1}</string>
+			<key>spriteSize</key>
+			<string>{20, 38}</string>
+			<key>spriteSourceSize</key>
+			<string>{26, 40}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{45, 80}, {20, 38}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_left_7.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{6, 0}, {25, 39}}</string>
+			<key>spriteOffset</key>
+			<string>{3, 1}</string>
+			<key>spriteSize</key>
+			<string>{25, 39}</string>
+			<key>spriteSourceSize</key>
+			<string>{31, 41}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 41}, {25, 39}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_left_8.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{4, 0}, {27, 36}}</string>
+			<key>spriteOffset</key>
+			<string>{2, 1}</string>
+			<key>spriteSize</key>
+			<string>{27, 36}</string>
+			<key>spriteSourceSize</key>
+			<string>{31, 38}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{126, 156}, {27, 36}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_left_9.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{4, 0}, {27, 37}}</string>
+			<key>spriteOffset</key>
+			<string>{2, -0}</string>
+			<key>spriteSize</key>
+			<string>{27, 37}</string>
+			<key>spriteSourceSize</key>
+			<string>{31, 37}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{82, 117}, {27, 37}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_right_1.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {18, 37}}</string>
+			<key>spriteOffset</key>
+			<string>{-2, -0}</string>
+			<key>spriteSize</key>
+			<string>{18, 37}</string>
+			<key>spriteSourceSize</key>
+			<string>{22, 37}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{111, 117}, {18, 37}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_right_10.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {24, 38}}</string>
+			<key>spriteOffset</key>
+			<string>{-1, -0}</string>
+			<key>spriteSize</key>
+			<string>{24, 38}</string>
+			<key>spriteSourceSize</key>
+			<string>{26, 38}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{9, 164}, {24, 38}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_right_11.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {18, 37}}</string>
+			<key>spriteOffset</key>
+			<string>{-1, -0}</string>
+			<key>spriteSize</key>
+			<string>{18, 37}</string>
+			<key>spriteSourceSize</key>
+			<string>{20, 37}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{106, 156}, {18, 37}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_right_12.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {13, 36}}</string>
+			<key>spriteOffset</key>
+			<string>{-1, -0}</string>
+			<key>spriteSize</key>
+			<string>{13, 36}</string>
+			<key>spriteSourceSize</key>
+			<string>{15, 36}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{144, 0}, {13, 36}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_right_13.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {13, 38}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{13, 38}</string>
+			<key>spriteSourceSize</key>
+			<string>{13, 38}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{67, 120}, {13, 38}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_right_14.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {17, 38}}</string>
+			<key>spriteOffset</key>
+			<string>{-2, -0}</string>
+			<key>spriteSize</key>
+			<string>{17, 38}</string>
+			<key>spriteSourceSize</key>
+			<string>{21, 38}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{57, 200}, {17, 38}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_right_15.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {20, 38}}</string>
+			<key>spriteOffset</key>
+			<string>{-2, -0}</string>
+			<key>spriteSize</key>
+			<string>{20, 38}</string>
+			<key>spriteSourceSize</key>
+			<string>{24, 38}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{35, 202}, {20, 38}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_right_16.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {21, 38}}</string>
+			<key>spriteOffset</key>
+			<string>{-3, -0}</string>
+			<key>spriteSize</key>
+			<string>{21, 38}</string>
+			<key>spriteSourceSize</key>
+			<string>{27, 38}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{27, 0}, {21, 38}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_right_17.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {25, 37}}</string>
+			<key>spriteOffset</key>
+			<string>{-3, 1}</string>
+			<key>spriteSize</key>
+			<string>{25, 37}</string>
+			<key>spriteSourceSize</key>
+			<string>{31, 39}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{100, 39}, {25, 37}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_right_18.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {28, 37}}</string>
+			<key>spriteOffset</key>
+			<string>{-1, -0}</string>
+			<key>spriteSize</key>
+			<string>{28, 37}</string>
+			<key>spriteSourceSize</key>
+			<string>{30, 37}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{76, 199}, {28, 37}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_right_19.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {28, 37}}</string>
+			<key>spriteOffset</key>
+			<string>{-2, -0}</string>
+			<key>spriteSize</key>
+			<string>{28, 37}</string>
+			<key>spriteSourceSize</key>
+			<string>{32, 37}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{70, 0}, {28, 37}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_right_2.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {14, 36}}</string>
+			<key>spriteOffset</key>
+			<string>{-2, -0}</string>
+			<key>spriteSize</key>
+			<string>{14, 36}</string>
+			<key>spriteSourceSize</key>
+			<string>{18, 36}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{131, 78}, {14, 36}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_right_20.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {22, 38}}</string>
+			<key>spriteOffset</key>
+			<string>{-3, -0}</string>
+			<key>spriteSize</key>
+			<string>{22, 38}</string>
+			<key>spriteSourceSize</key>
+			<string>{28, 38}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{21, 122}, {22, 38}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_right_3.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {15, 37}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{15, 37}</string>
+			<key>spriteSourceSize</key>
+			<string>{15, 37}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{127, 0}, {15, 37}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_right_4.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {18, 38}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{18, 38}</string>
+			<key>spriteSourceSize</key>
+			<string>{18, 38}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{50, 40}, {18, 38}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_right_5.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {19, 39}}</string>
+			<key>spriteOffset</key>
+			<string>{-1, -0}</string>
+			<key>spriteSize</key>
+			<string>{19, 39}</string>
+			<key>spriteSourceSize</key>
+			<string>{21, 39}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 123}, {19, 39}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_right_6.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {20, 38}}</string>
+			<key>spriteOffset</key>
+			<string>{-3, 1}</string>
+			<key>spriteSize</key>
+			<string>{20, 38}</string>
+			<key>spriteSourceSize</key>
+			<string>{26, 40}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{45, 120}, {20, 38}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_right_7.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {25, 39}}</string>
+			<key>spriteOffset</key>
+			<string>{-3, 1}</string>
+			<key>spriteSize</key>
+			<string>{25, 39}</string>
+			<key>spriteSourceSize</key>
+			<string>{31, 41}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 0}, {25, 39}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_right_8.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {27, 36}}</string>
+			<key>spriteOffset</key>
+			<string>{-2, 1}</string>
+			<key>spriteSize</key>
+			<string>{27, 36}</string>
+			<key>spriteSourceSize</key>
+			<string>{31, 38}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{126, 194}, {27, 36}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_run_right_9.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {27, 37}}</string>
+			<key>spriteOffset</key>
+			<string>{-2, -0}</string>
+			<key>spriteSize</key>
+			<string>{27, 37}</string>
+			<key>spriteSourceSize</key>
+			<string>{31, 37}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{82, 78}, {27, 37}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_stand_left.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {7, 39}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 1}</string>
+			<key>spriteSize</key>
+			<string>{7, 39}</string>
+			<key>spriteSourceSize</key>
+			<string>{9, 39}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 164}, {7, 39}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>heather_stand_right.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {7, 39}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{7, 39}</string>
+			<key>spriteSourceSize</key>
+			<string>{9, 39}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 205}, {7, 39}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>version</key>
+		<string>1.6.0</string>
+		<key>format</key>
+		<integer>3</integer>
+		<key>size</key>
+		<string>{256, 256}</string>
+		<key>name</key>
+		<string>heather.zwd</string>
+		<key>target</key>
+		<dict>
+			<key>name</key>
+			<string>default</string>
+			<key>textureFileName</key>
+			<string>heather</string>
+			<key>textureFileExtension</key>
+			<string>.png</string>
+			<key>coordinatesFileName</key>
+			<string>heather_default</string>
+			<key>coordinatesFileExtension</key>
+			<string>.plist</string>
+			<key>premultipliedAlpha</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>
